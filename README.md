@@ -17,7 +17,7 @@ This IP can be considered to be of high quality and stable. It was developed in 
 
 ### Dependencies ###
 
-
+[LabVIEW FPGA Advanced Interface Tools](https://decibel.ni.com/content/docs/DOC-29957)
 
 ### License ###
 
