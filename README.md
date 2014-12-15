@@ -1,6 +1,6 @@
 ## Waveform Data Logger Custom Device ##
 
-**Waveform Data Logger Custom Device** is a insert description of IP
+The **Waveform Data Logger Custom Device** allows users to log any waveforms generated in their system, including DAQ waveforms.  Multiple log files can be defined containing different waveforms, settings, and trigger conditions.
 
 ### LabVIEW Version ###
 
