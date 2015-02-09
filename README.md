@@ -14,10 +14,7 @@ Builds of this IP are available on the [NI VeriStand Add-ons Community](https://
 
 This IP can be considered to be of high quality and stable. It was developed in 2013, and has been deployed in multiple customer locations.
 
-
 ### Dependencies ###
-
-[LabVIEW FPGA Advanced Interface Tools](https://decibel.ni.com/content/docs/DOC-29957)
 
 ### License ###
 
