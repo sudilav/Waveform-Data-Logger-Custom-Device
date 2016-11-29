@@ -45,6 +45,7 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Clear Specific Error.vi" Type="VI" URL="../Utility/Clear Specific Error.vi"/>
+			<Item Name="Format File Path for Linux.vi" Type="VI" URL="../Utility/Format File Path for Linux.vi"/>
 		</Item>
 	</Item>
 </Library>
