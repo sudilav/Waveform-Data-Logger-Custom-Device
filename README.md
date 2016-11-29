@@ -4,7 +4,7 @@ The **Waveform Data Logger Custom Device** allows users to log any waveforms gen
 
 ### LabVIEW Version ###
 
-LabVIEW 2013
+LabVIEW 2015
 
 ### Built Availability ###
 
