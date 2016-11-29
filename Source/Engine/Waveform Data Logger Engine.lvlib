@@ -9,41 +9,6 @@
 </Property>
 	<Item Name="Engine" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Classes" Type="Folder">
-			<Item Name="Logs" Type="Folder">
-				<Item Name="Log Files" Type="Folder">
-					<Item Name="Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Log File/Log File.lvclass"/>
-					<Item Name="TDMS Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/TDMS Log File/TDMS Log File.lvclass"/>
-					<Item Name="Text Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Text Log File/Text Log File.lvclass"/>
-				</Item>
-				<Item Name="Segmented Logs" Type="Folder">
-					<Item Name="Footprint Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Footprint Segmented Log/Footprint Segmented Log.lvclass"/>
-					<Item Name="Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Segmented Log/Segmented Log.lvclass"/>
-					<Item Name="Time Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Time Segmented Log/Time Segmented Log.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Triggers" Type="Folder">
-				<Item Name="Analog Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Analog Edge Trigger/Analog Edge Trigger.lvclass"/>
-				<Item Name="Boolean Evaluation Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Boolean Evaluation Trigger/Boolean Evaluation Trigger.lvclass"/>
-				<Item Name="Default Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Default Trigger/Default Trigger.lvclass"/>
-				<Item Name="Digital Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Digital Edge Trigger/Digital Edge Trigger.lvclass"/>
-				<Item Name="In Range Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/In Range Trigger/In Range Trigger.lvclass"/>
-				<Item Name="Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Trigger/Trigger.lvclass"/>
-				<Item Name="Value Change Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Value Change Trigger/Value Change Trigger.lvclass"/>
-			</Item>
-			<Item Name="Waveforms" Type="Folder">
-				<Item Name="Buffer" Type="Folder">
-					<Item Name="CDB Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/CDB Waveform Buffer/CDB Waveform Buffer.lvclass"/>
-					<Item Name="DBL Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/DBL Waveform Buffer/DBL Waveform Buffer.lvclass"/>
-					<Item Name="Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/Waveform Buffer/Waveform Buffer.lvclass"/>
-				</Item>
-				<Item Name="Utilities" Type="Folder">
-					<Item Name="Reference Dictionary.lvclass" Type="LVClass" URL="../Classes/Waveforms/Utilities/Reference Dictionary/Reference Dictionary.lvclass"/>
-				</Item>
-				<Item Name="Waveform Log.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Log/Waveform Log.lvclass"/>
-				<Item Name="Waveform Receive.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Receive/Waveform Receive.lvclass"/>
-			</Item>
-		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Async Communication.ctl" Type="VI" URL="../Types/Async Communication.ctl"/>
 			<Item Name="Async Data.ctl" Type="VI" URL="../Types/Async Data.ctl"/>
@@ -124,6 +89,8 @@
 				<Item Name="Close Communication.vi" Type="VI" URL="../subVIs/Close/Close Communication.vi"/>
 			</Item>
 			<Item Name="Utility" Type="Folder">
+				<Item Name="RT_Format Error.vi" Type="VI" URL="../subVIs/Utility/RT_Format Error.vi"/>
+				<Item Name="RT_Format Message String.vi" Type="VI" URL="../subVIs/Utility/RT_Format Message String.vi"/>
 				<Item Name="Print CD Error.vi" Type="VI" URL="../subVIs/Utility/Print CD Error.vi"/>
 			</Item>
 		</Item>

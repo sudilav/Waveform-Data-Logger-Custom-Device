@@ -5,14 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Classes" Type="Folder">
-			<Item Name="Log File Specifications" Type="Folder">
-				<Item Name="Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Log File Specification/Log File Specification.lvclass"/>
-				<Item Name="TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/TDMS Log File Specification/TDMS Log File Specification.lvclass"/>
-				<Item Name="Text Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Text Log File Specification/Text Log File Specification.lvclass"/>
-				<Item Name="Waveform TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Waveform TDMS Log File Specification/Waveform TDMS Log File Specification.lvclass"/>
-			</Item>
-		</Item>
 		<Item Name="Globals" Type="Folder">
 			<Item Name="Default Values.vi" Type="VI" URL="../Globals/Default Values.vi"/>
 			<Item Name="Global GUIDs.vi" Type="VI" URL="../Globals/Global GUIDs.vi"/>
@@ -45,7 +37,6 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Clear Specific Error.vi" Type="VI" URL="../Utility/Clear Specific Error.vi"/>
-			<Item Name="Format File Path for Linux.vi" Type="VI" URL="../Utility/Format File Path for Linux.vi"/>
 		</Item>
 	</Item>
 </Library>

@@ -14,21 +14,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NIVS APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="Test VIs" Type="Folder">
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Triggered Log - from API" Type="Folder">
-					<Item Name="Triggered Log.lvclass" Type="LVClass" URL="../Test VIs/Examples/Pretrigger Log/Triggered Log.lvclass"/>
-				</Item>
-			</Item>
-			<Item Name="Buffer write test.vi" Type="VI" URL="../Test VIs/Buffer write test.vi"/>
-			<Item Name="Buffer Classes Test.vi" Type="VI" URL="../Test VIs/Buffer Classes Test.vi"/>
-			<Item Name="Rotate Array Benchmark.vi" Type="VI" URL="../Test VIs/Rotate Array Benchmark.vi"/>
-			<Item Name="TDMS Properties.vi" Type="VI" URL="../Test VIs/TDMS Properties.vi"/>
-			<Item Name="NET control example with SP and WFM channels.vi" Type="VI" URL="../Test VIs/NET control example with SP and WFM channels.vi"/>
-			<Item Name="NET Control Test.vi" Type="VI" URL="../Test VIs/NET Control Test.vi"/>
 		</Item>
 		<Item Name="Glyphs" Type="Folder" URL="../Glyphs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -54,26 +41,7 @@
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="TDMSFileViewer_LaunchHelp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSFileViewer_LaunchHelp.vi"/>
-				<Item Name="fileViewerConfigData.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/fileViewerConfigData.ctl"/>
-				<Item Name="configureNumberOfValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/configureNumberOfValues.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="setListBoxColumnWidths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/setListBoxColumnWidths.vi"/>
-				<Item Name="loadAndFormatValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/loadAndFormatValues.vi"/>
-				<Item Name="getChannelList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getChannelList.vi"/>
-				<Item Name="TDMSFileViewerLocalizedText.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSFileViewerLocalizedText.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="formatPropertyList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/formatPropertyList.vi"/>
-				<Item Name="getNamesFromPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getNamesFromPath.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="initTabValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initTabValues.vi"/>
-				<Item Name="initHelpButtonVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initHelpButtonVisibility.vi"/>
-				<Item Name="initFileContentsTree.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initFileContentsTree.vi"/>
-				<Item Name="status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/status.vi"/>
-				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
@@ -108,24 +76,6 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
-				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
-				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Clear-68016.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/Clear-68016.vi"/>
-				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
-				<Item Name="InitFromConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitFromConfiguration.vi"/>
-				<Item Name="Get Type of Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type of Variant.vi"/>
-				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
-				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
-				<Item Name="LogicalSort.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LogicalSort.vi"/>
-				<Item Name="ExtractSubstring.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ExtractSubstring.vi"/>
-				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
-				<Item Name="InitScrollbarAndListBox.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitScrollbarAndListBox.vi"/>
-				<Item Name="UpdateBufferForMultiListBoxIfNecessary.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateBufferForMultiListBoxIfNecessary.vi"/>
-				<Item Name="LoadBufferForMultiListBoxAndFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LoadBufferForMultiListBoxAndFormat.vi"/>
-				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
-				<Item Name="UpdateListBoxAfterKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateListBoxAfterKeyEvent.vi"/>
-				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
@@ -333,10 +283,32 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Log File Specification/Log File Specification.lvclass"/>
+			<Item Name="Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Log File/Log File.lvclass"/>
+			<Item Name="Text Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Text Log File/Text Log File.lvclass"/>
+			<Item Name="TDMS Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/TDMS Log File/TDMS Log File.lvclass"/>
+			<Item Name="TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/TDMS Log File Specification/TDMS Log File Specification.lvclass"/>
+			<Item Name="Text Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Text Log File Specification/Text Log File Specification.lvclass"/>
+			<Item Name="Waveform TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Waveform TDMS Log File Specification/Waveform TDMS Log File Specification.lvclass"/>
+			<Item Name="Reference Dictionary.lvclass" Type="LVClass" URL="../Classes/Waveforms/Utilities/Reference Dictionary/Reference Dictionary.lvclass"/>
+			<Item Name="Waveform Receive.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Receive/Waveform Receive.lvclass"/>
+			<Item Name="Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/Waveform Buffer/Waveform Buffer.lvclass"/>
+			<Item Name="DBL Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/DBL Waveform Buffer/DBL Waveform Buffer.lvclass"/>
+			<Item Name="CDB Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/CDB Waveform Buffer/CDB Waveform Buffer.lvclass"/>
+			<Item Name="Waveform Log.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Log/Waveform Log.lvclass"/>
+			<Item Name="Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Segmented Log/Segmented Log.lvclass"/>
+			<Item Name="Footprint Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Footprint Segmented Log/Footprint Segmented Log.lvclass"/>
+			<Item Name="Time Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Time Segmented Log/Time Segmented Log.lvclass"/>
+			<Item Name="Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Trigger/Trigger.lvclass"/>
+			<Item Name="Digital Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Digital Edge Trigger/Digital Edge Trigger.lvclass"/>
+			<Item Name="Analog Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Analog Edge Trigger/Analog Edge Trigger.lvclass"/>
+			<Item Name="Value Change Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Value Change Trigger/Value Change Trigger.lvclass"/>
+			<Item Name="Boolean Evaluation Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Boolean Evaluation Trigger/Boolean Evaluation Trigger.lvclass"/>
+			<Item Name="In Range Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/In Range Trigger/In Range Trigger.lvclass"/>
+			<Item Name="Default Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Default Trigger/Default Trigger.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -467,7 +439,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99DD55D-D8BD-4FB0-B000-52EC215A48B0}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/Waveform Data Logger/Windows/Waveform Data Logger Engine Windows.llb</Property>
@@ -477,14 +449,18 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9F336519-EE89-418F-89F6-4EA5A799C56F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0E3C71B0-6B7B-4DEE-9EFF-4DEAEA03003C}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Waveform Data Logger Engine.lvlib/Waveform Data Logger RT Driver VI.vi</Property>
@@ -616,7 +592,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NIVS APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Waveform Data Logger Engine.lvlib" Type="Library" URL="../Engine/Waveform Data Logger Engine.lvlib"/>
@@ -673,9 +649,32 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Analog Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Analog Edge Trigger/Analog Edge Trigger.lvclass"/>
+			<Item Name="Boolean Evaluation Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Boolean Evaluation Trigger/Boolean Evaluation Trigger.lvclass"/>
+			<Item Name="CDB Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/CDB Waveform Buffer/CDB Waveform Buffer.lvclass"/>
+			<Item Name="DBL Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/DBL Waveform Buffer/DBL Waveform Buffer.lvclass"/>
+			<Item Name="Default Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Default Trigger/Default Trigger.lvclass"/>
+			<Item Name="Digital Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Digital Edge Trigger/Digital Edge Trigger.lvclass"/>
+			<Item Name="Footprint Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Footprint Segmented Log/Footprint Segmented Log.lvclass"/>
+			<Item Name="In Range Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/In Range Trigger/In Range Trigger.lvclass"/>
+			<Item Name="Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Log File Specification/Log File Specification.lvclass"/>
+			<Item Name="Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Log File/Log File.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reference Dictionary.lvclass" Type="LVClass" URL="../Classes/Waveforms/Utilities/Reference Dictionary/Reference Dictionary.lvclass"/>
+			<Item Name="Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Segmented Log/Segmented Log.lvclass"/>
+			<Item Name="TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/TDMS Log File Specification/TDMS Log File Specification.lvclass"/>
+			<Item Name="TDMS Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/TDMS Log File/TDMS Log File.lvclass"/>
+			<Item Name="Text Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Text Log File Specification/Text Log File Specification.lvclass"/>
+			<Item Name="Text Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Text Log File/Text Log File.lvclass"/>
+			<Item Name="Time Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Time Segmented Log/Time Segmented Log.lvclass"/>
+			<Item Name="Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Trigger/Trigger.lvclass"/>
+			<Item Name="Value Change Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Value Change Trigger/Value Change Trigger.lvclass"/>
+			<Item Name="Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/Waveform Buffer/Waveform Buffer.lvclass"/>
+			<Item Name="Waveform Log.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Log/Waveform Log.lvclass"/>
+			<Item Name="Waveform Receive.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Receive/Waveform Receive.lvclass"/>
+			<Item Name="Waveform TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Waveform TDMS Log File Specification/Waveform TDMS Log File Specification.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -700,14 +699,19 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D96AD716-94A2-4253-AA44-3F7E0BC8377B}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5533941D-2116-4FFB-9994-B661054BB976}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/PharLap/Waveform Data Logger Engine.lvlib/Waveform Data Logger RT Driver VI.vi</Property>
@@ -864,7 +868,7 @@
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Property Name="TargetOSID" Type="Str">VxWorks-PPC603</Property>
 		<Item Name="NIVS APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Waveform Data Logger Engine.lvlib" Type="Library" URL="../Engine/Waveform Data Logger Engine.lvlib"/>
@@ -924,6 +928,29 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reference Dictionary.lvclass" Type="LVClass" URL="../Classes/Waveforms/Utilities/Reference Dictionary/Reference Dictionary.lvclass"/>
+			<Item Name="Waveform Receive.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Receive/Waveform Receive.lvclass"/>
+			<Item Name="Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/Waveform Buffer/Waveform Buffer.lvclass"/>
+			<Item Name="DBL Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/DBL Waveform Buffer/DBL Waveform Buffer.lvclass"/>
+			<Item Name="CDB Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/CDB Waveform Buffer/CDB Waveform Buffer.lvclass"/>
+			<Item Name="Waveform Log.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Log/Waveform Log.lvclass"/>
+			<Item Name="Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Log File Specification/Log File Specification.lvclass"/>
+			<Item Name="Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Log File/Log File.lvclass"/>
+			<Item Name="Text Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Text Log File/Text Log File.lvclass"/>
+			<Item Name="TDMS Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/TDMS Log File/TDMS Log File.lvclass"/>
+			<Item Name="TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/TDMS Log File Specification/TDMS Log File Specification.lvclass"/>
+			<Item Name="Text Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Text Log File Specification/Text Log File Specification.lvclass"/>
+			<Item Name="Waveform TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Waveform TDMS Log File Specification/Waveform TDMS Log File Specification.lvclass"/>
+			<Item Name="Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Segmented Log/Segmented Log.lvclass"/>
+			<Item Name="Footprint Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Footprint Segmented Log/Footprint Segmented Log.lvclass"/>
+			<Item Name="Time Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Time Segmented Log/Time Segmented Log.lvclass"/>
+			<Item Name="Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Trigger/Trigger.lvclass"/>
+			<Item Name="Digital Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Digital Edge Trigger/Digital Edge Trigger.lvclass"/>
+			<Item Name="Analog Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Analog Edge Trigger/Analog Edge Trigger.lvclass"/>
+			<Item Name="Value Change Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Value Change Trigger/Value Change Trigger.lvclass"/>
+			<Item Name="Boolean Evaluation Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Boolean Evaluation Trigger/Boolean Evaluation Trigger.lvclass"/>
+			<Item Name="In Range Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/In Range Trigger/In Range Trigger.lvclass"/>
+			<Item Name="Default Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Default Trigger/Default Trigger.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -948,14 +975,19 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AD42F92E-1AB3-47E3-B9E8-AE4ECBFEF08C}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F5F6B945-2164-43D7-BC50-0EBEE597908A}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/VxWorks/Waveform Data Logger Engine.lvlib/Async.vi</Property>
@@ -1109,7 +1141,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NIVS APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Waveform Data Logger Engine.lvlib" Type="Library" URL="../Engine/Waveform Data Logger Engine.lvlib"/>
@@ -1166,9 +1198,32 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Analog Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Analog Edge Trigger/Analog Edge Trigger.lvclass"/>
+			<Item Name="Boolean Evaluation Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Boolean Evaluation Trigger/Boolean Evaluation Trigger.lvclass"/>
+			<Item Name="CDB Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/CDB Waveform Buffer/CDB Waveform Buffer.lvclass"/>
+			<Item Name="DBL Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/DBL Waveform Buffer/DBL Waveform Buffer.lvclass"/>
+			<Item Name="Default Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Default Trigger/Default Trigger.lvclass"/>
+			<Item Name="Digital Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Digital Edge Trigger/Digital Edge Trigger.lvclass"/>
+			<Item Name="Footprint Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Footprint Segmented Log/Footprint Segmented Log.lvclass"/>
+			<Item Name="In Range Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/In Range Trigger/In Range Trigger.lvclass"/>
+			<Item Name="Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Log File Specification/Log File Specification.lvclass"/>
+			<Item Name="Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Log File/Log File.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reference Dictionary.lvclass" Type="LVClass" URL="../Classes/Waveforms/Utilities/Reference Dictionary/Reference Dictionary.lvclass"/>
+			<Item Name="Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Segmented Log/Segmented Log.lvclass"/>
+			<Item Name="TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/TDMS Log File Specification/TDMS Log File Specification.lvclass"/>
+			<Item Name="TDMS Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/TDMS Log File/TDMS Log File.lvclass"/>
+			<Item Name="Text Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Text Log File Specification/Text Log File Specification.lvclass"/>
+			<Item Name="Text Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Text Log File/Text Log File.lvclass"/>
+			<Item Name="Time Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Time Segmented Log/Time Segmented Log.lvclass"/>
+			<Item Name="Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Trigger/Trigger.lvclass"/>
+			<Item Name="Value Change Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Value Change Trigger/Value Change Trigger.lvclass"/>
+			<Item Name="Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/Waveform Buffer/Waveform Buffer.lvclass"/>
+			<Item Name="Waveform Log.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Log/Waveform Log.lvclass"/>
+			<Item Name="Waveform Receive.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Receive/Waveform Receive.lvclass"/>
+			<Item Name="Waveform TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Waveform TDMS Log File Specification/Waveform TDMS Log File Specification.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1185,7 +1240,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D152078-79CA-4AB6-BEC7-D5AFD1FBD767}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Waveform Data Logger Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Waveform Data Logger Engine LinuxARM.llb</Property>
@@ -1196,14 +1251,19 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{03332906-74B0-4BEA-AB09-872E3AEEC040}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F5EEE2A-586B-4132-B473-7422A762C0F9}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Waveform Data Logger Engine.lvlib/Waveform Data Logger RT Driver VI.vi</Property>
@@ -1337,7 +1397,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="NIVS APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Waveform Data Logger Engine.lvlib" Type="Library" URL="../Engine/Waveform Data Logger Engine.lvlib"/>
@@ -1394,9 +1454,32 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Analog Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Analog Edge Trigger/Analog Edge Trigger.lvclass"/>
+			<Item Name="Boolean Evaluation Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Boolean Evaluation Trigger/Boolean Evaluation Trigger.lvclass"/>
+			<Item Name="CDB Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/CDB Waveform Buffer/CDB Waveform Buffer.lvclass"/>
+			<Item Name="DBL Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/DBL Waveform Buffer/DBL Waveform Buffer.lvclass"/>
+			<Item Name="Default Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Default Trigger/Default Trigger.lvclass"/>
+			<Item Name="Digital Edge Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Digital Edge Trigger/Digital Edge Trigger.lvclass"/>
+			<Item Name="Footprint Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Footprint Segmented Log/Footprint Segmented Log.lvclass"/>
+			<Item Name="In Range Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/In Range Trigger/In Range Trigger.lvclass"/>
+			<Item Name="Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Log File Specification/Log File Specification.lvclass"/>
+			<Item Name="Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Log File/Log File.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reference Dictionary.lvclass" Type="LVClass" URL="../Classes/Waveforms/Utilities/Reference Dictionary/Reference Dictionary.lvclass"/>
+			<Item Name="Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Segmented Log/Segmented Log.lvclass"/>
+			<Item Name="TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/TDMS Log File Specification/TDMS Log File Specification.lvclass"/>
+			<Item Name="TDMS Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/TDMS Log File/TDMS Log File.lvclass"/>
+			<Item Name="Text Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Text Log File Specification/Text Log File Specification.lvclass"/>
+			<Item Name="Text Log File.lvclass" Type="LVClass" URL="../Classes/Logs/Log Files/Text Log File/Text Log File.lvclass"/>
+			<Item Name="Time Segmented Log.lvclass" Type="LVClass" URL="../Classes/Logs/Segmented Logs/Time Segmented Log/Time Segmented Log.lvclass"/>
+			<Item Name="Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Trigger/Trigger.lvclass"/>
+			<Item Name="Value Change Trigger.lvclass" Type="LVClass" URL="../Classes/Triggers/Value Change Trigger/Value Change Trigger.lvclass"/>
+			<Item Name="Waveform Buffer.lvclass" Type="LVClass" URL="../Classes/Waveforms/Buffer/Waveform Buffer/Waveform Buffer.lvclass"/>
+			<Item Name="Waveform Log.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Log/Waveform Log.lvclass"/>
+			<Item Name="Waveform Receive.lvclass" Type="LVClass" URL="../Classes/Waveforms/Waveform Receive/Waveform Receive.lvclass"/>
+			<Item Name="Waveform TDMS Log File Specification.lvclass" Type="LVClass" URL="../Classes/Log File Specifications/Waveform TDMS Log File Specification/Waveform TDMS Log File Specification.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1423,14 +1506,19 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F95864FC-7A31-4051-AB94-F4F6EFC79082}</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5093486D-E6A5-4024-80B3-836EC1C9DAE3}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Waveform Data Logger Engine.lvlib/Waveform Data Logger RT Driver VI.vi</Property>
