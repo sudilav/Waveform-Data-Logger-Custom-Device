@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\waveform data logger'
 
 [projects.cd]
-path = 'Source\Waveform Data Logger Custom Device.lvproj'
+path = 'Source\Waveform Data Logger Custom Device Project.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
