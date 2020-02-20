@@ -22,7 +22,7 @@ build_spec = 'Engine Release'
 type = 'nipkg'
 name = 'waveform-data-logger-custom-device-{version}'
 dev_xml_path = 'Source\Custom Device Waveform Data Logger.xml'
-install_destination = 'documents\National Instruments\NI VeriStand {version}\Custom Devices'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]
 name = 'Master Release'
