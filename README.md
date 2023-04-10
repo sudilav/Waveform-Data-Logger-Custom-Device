@@ -4,11 +4,11 @@ The **Waveform Data Logger Custom Device** allows users to log any waveforms gen
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2019
 
 ### Built Availability ###
 
-No builds are provided.
+Builds for different VeriStand versions are available in the Releases page.
 
 ### Quality, Limitations ###
 
