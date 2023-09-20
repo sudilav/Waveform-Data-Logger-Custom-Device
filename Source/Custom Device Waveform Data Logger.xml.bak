@@ -26,8 +26,8 @@
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Waveform Data Logger\Waveform Data Logger Engine Windows.llb\Waveform Data Logger RT Driver VI.vi</RealTimeSystemDestination>
     </Source>
-  	<Source>
-	<SupportedTarget>Linux_x64</SupportedTarget>
+  	  <Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\Waveform Data Logger\Linux_x64\Waveform Data Logger Engine Linux64.llb\Waveform Data Logger RT Driver VI.vi</Path>
